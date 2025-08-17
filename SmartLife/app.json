@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "SmartLife",
+    "slug": "SmartLife",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.SmartLife"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-font",
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "19f7da17-81da-40e8-8e0d-9fb588238073"
+      }
+    },
+    "owner": "mryusubov"
+  }
+}
